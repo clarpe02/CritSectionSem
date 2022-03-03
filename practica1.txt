@@ -1,0 +1,313 @@
+Script iniciado en 2022-03-03 18:36:55+01:00 [TERM="xterm-256color" TTY="/dev/pts/58" COLUMNS="183" LINES="40"]
+]0;clarpe02@simba: ~[01;32mclarpe02@simba[00m:[01;34m~[00m$ python3 merge.py 
+almacen inicial [0, 0, 0, 0, 0]
+producer prod_2 produciendo
+producer prod_0 produciendo
+producer prod_1 produciendo
+producer prod_3 produciendo
+producer prod_4 produciendo
+producer prod_4 almacenado 1
+producer prod_3 almacenado 3
+producer prod_2 almacenado 5
+producer prod_0 almacenado 4
+producer prod_1 almacenado 5
+consumer consumiendo 1
+producer prod_4 produciendo
+producer prod_4 almacenado 5
+consumer consumiendo 3
+producer prod_3 produciendo
+producer prod_3 almacenado 8
+consumer consumiendo 4
+producer prod_0 produciendo
+producer prod_0 almacenado 6
+consumer consumiendo 5
+producer prod_1 produciendo
+producer prod_1 almacenado 9
+consumer consumiendo 5
+producer prod_2 produciendo
+producer prod_2 almacenado 6
+consumer consumiendo 5
+producer prod_4 produciendo
+producer prod_4 almacenado 5
+consumer consumiendo 5
+producer prod_4 produciendo
+producer prod_4 almacenado 10
+consumer consumiendo 6
+producer prod_0 produciendo
+producer prod_0 almacenado 9
+consumer consumiendo 6
+producer prod_2 produciendo
+producer prod_2 almacenado 11
+consumer consumiendo 8
+producer prod_3 produciendo
+producer prod_3 almacenado 10
+consumer consumiendo 9
+producer prod_0 produciendo
+producer prod_0 almacenado 13
+consumer consumiendo 9
+producer prod_1 produciendo
+producer prod_1 almacenado 14
+consumer consumiendo 10
+producer prod_3 produciendo
+producer prod_3 almacenado 11
+consumer consumiendo 10
+producer prod_4 produciendo
+producer prod_4 almacenado 10
+consumer consumiendo 10
+producer prod_4 produciendo
+producer prod_4 almacenado 12
+consumer consumiendo 11
+producer prod_2 produciendo
+producer prod_2 almacenado 11
+consumer consumiendo 11
+producer prod_2 produciendo
+producer prod_2 almacenado 12
+consumer consumiendo 11
+producer prod_3 produciendo
+consumer consumiendo 12
+producer prod_3 almacenado 16
+producer prod_2 produciendo
+producer prod_2 almacenado 15
+consumer consumiendo 12
+producer prod_4 produciendo
+producer prod_4 almacenado 14
+consumer consumiendo 13
+producer prod_0 produciendo
+producer prod_0 almacenado 15
+consumer consumiendo 14
+producer prod_1 produciendo
+producer prod_1 almacenado 14
+consumer consumiendo 14
+producer prod_1 produciendo
+producer prod_1 almacenado 17
+consumer consumiendo 14
+producer prod_4 produciendo
+producer prod_4 almacenado 16
+consumer consumiendo 15
+producer prod_0 produciendo
+producer prod_0 almacenado 15
+consumer consumiendo 15
+producer prod_0 produciendo
+producer prod_0 almacenado 20
+consumer consumiendo 15
+producer prod_2 produciendo
+producer prod_2 almacenado 16
+consumer consumiendo 16
+producer prod_2 produciendo
+producer prod_2 almacenado 16
+consumer consumiendo 16
+producer prod_2 produciendo
+producer prod_2 almacenado 21
+consumer consumiendo 16
+producer prod_3 produciendo
+producer prod_3 almacenado 18
+consumer consumiendo 16
+producer prod_4 produciendo
+producer prod_4 almacenado 19
+consumer consumiendo 17
+producer prod_1 produciendo
+producer prod_1 almacenado 17
+consumer consumiendo 17
+producer prod_1 produciendo
+producer prod_1 almacenado 18
+consumer consumiendo 18
+producer prod_1 produciendo
+producer prod_1 almacenado 21
+consumer consumiendo 18
+producer prod_3 produciendo
+producer prod_3 almacenado 21
+consumer consumiendo 19
+producer prod_4 produciendo
+producer prod_4 almacenado 19
+consumer consumiendo 19
+consumer consumiendo 20
+producer prod_0 produciendo
+producer prod_0 almacenado 25
+consumer consumiendo 21
+producer prod_1 produciendo
+producer prod_1 almacenado 24
+consumer consumiendo 21
+producer prod_2 produciendo
+producer prod_2 almacenado 21
+consumer consumiendo 21
+consumer consumiendo 21
+producer prod_3 produciendo
+producer prod_3 almacenado 25
+consumer consumiendo 24
+producer prod_1 produciendo
+producer prod_1 almacenado 27
+consumer consumiendo 25
+producer prod_0 produciendo
+producer prod_0 almacenado 29
+consumer consumiendo 25
+producer prod_3 produciendo
+producer prod_3 almacenado 26
+consumer consumiendo 26
+producer prod_3 produciendo
+producer prod_3 almacenado 30
+consumer consumiendo 27
+consumer consumiendo 29
+producer prod_0 produciendo
+producer prod_0 almacenado 31
+consumer consumiendo 30
+consumer consumiendo 31
+elementos consumidos: [1, 3, 4, 5, 5, 5, 5, 6, 6, 8, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12, 13, 14, 14, 14, 15, 15, 15, 16, 16, 16, 16, 17, 17, 18, 18, 19, 19, 20, 21, 21, 21, 21, 24, 25, 25, 26, 27, 29, 30, 31]
+]0;clarpe02@simba: ~[01;32mclarpe02@simba[00m:[01;34m~[00m$ python3 mergeK.py 
+almacen inicial [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+producer prod_0 produciendo
+producer prod_1 produciendo
+producer prod_2 produciendo
+producer prod_3 produciendo
+producer prod_4 produciendo
+producer prod_2 almacenado 3
+producer prod_2 produciendo
+producer prod_0 almacenado 4
+producer prod_0 produciendo
+producer prod_2 almacenado 7
+producer prod_2 produciendo
+producer prod_4 almacenado 0
+producer prod_4 produciendo
+producer prod_3 almacenado 5
+producer prod_3 produciendo
+producer prod_1 almacenado 4
+producer prod_1 produciendo
+consumer consumiendo 0
+producer prod_0 almacenado 9
+producer prod_0 produciendo
+producer prod_0 almacenado 11
+producer prod_0 produciendo
+producer prod_2 almacenado 12
+producer prod_2 produciendo
+producer prod_4 almacenado 0
+producer prod_4 produciendo
+consumer consumiendo 0
+producer prod_1 almacenado 9
+producer prod_1 produciendo
+producer prod_3 almacenado 9
+producer prod_3 produciendo
+producer prod_0 almacenado 12
+producer prod_0 produciendo
+producer prod_4 almacenado 3
+producer prod_4 produciendo
+consumer consumiendo 3
+producer prod_1 almacenado 11
+producer prod_1 produciendo
+producer prod_1 almacenado 14
+producer prod_1 produciendo
+producer prod_0 almacenado 14
+producer prod_3 almacenado 11
+producer prod_3 produciendo
+producer prod_4 almacenado 8
+producer prod_4 produciendo
+consumer consumiendo 3
+producer prod_2 almacenado 17
+producer prod_2 produciendo
+producer prod_1 almacenado 17
+consumer consumiendo 4
+producer prod_0 produciendo
+producer prod_3 almacenado 15
+producer prod_3 produciendo
+producer prod_0 almacenado 18
+producer prod_4 almacenado 8
+producer prod_4 produciendo
+consumer consumiendo 4
+producer prod_1 produciendo
+producer prod_2 almacenado 22
+producer prod_2 produciendo
+consumer consumiendo 5
+producer prod_4 almacenado 10
+producer prod_4 produciendo
+consumer consumiendo 7
+consumer consumiendo 8
+producer prod_1 almacenado 22
+producer prod_3 almacenado 19
+producer prod_3 produciendo
+producer prod_4 almacenado 11
+producer prod_4 produciendo
+producer prod_2 almacenado 25
+producer prod_2 produciendo
+consumer consumiendo 8
+consumer consumiendo 9
+producer prod_0 produciendo
+producer prod_3 almacenado 24
+producer prod_2 almacenado 28
+producer prod_4 almacenado 14
+producer prod_4 produciendo
+producer prod_0 almacenado 18
+consumer consumiendo 9
+producer prod_1 produciendo
+producer prod_4 almacenado 16
+producer prod_4 produciendo
+consumer consumiendo 9
+producer prod_3 produciendo
+producer prod_4 almacenado 21
+producer prod_1 almacenado 27
+consumer consumiendo 10
+producer prod_3 almacenado 29
+consumer consumiendo 11
+producer prod_0 produciendo
+consumer consumiendo 11
+producer prod_1 produciendo
+producer prod_0 almacenado 18
+consumer consumiendo 11
+producer prod_3 produciendo
+producer prod_1 almacenado 31
+consumer consumiendo 11
+consumer consumiendo 12
+producer prod_0 produciendo
+producer prod_0 almacenado 21
+consumer consumiendo 12
+producer prod_2 produciendo
+consumer consumiendo 14
+producer prod_0 produciendo
+consumer consumiendo 14
+producer prod_1 produciendo
+producer prod_3 almacenado 29
+producer prod_1 almacenado 34
+producer prod_0 almacenado 21
+producer prod_2 almacenado 32
+consumer consumiendo 14
+consumer consumiendo 15
+producer prod_3 produciendo
+consumer consumiendo 16
+producer prod_3 almacenado 30
+consumer consumiendo 17
+producer prod_1 produciendo
+consumer consumiendo 17
+producer prod_2 produciendo
+consumer consumiendo 18
+consumer consumiendo 18
+producer prod_1 almacenado 34
+producer prod_2 almacenado 36
+consumer consumiendo 18
+consumer consumiendo 19
+producer prod_3 produciendo
+consumer consumiendo 21
+producer prod_3 almacenado 31
+consumer consumiendo 21
+consumer consumiendo 21
+consumer consumiendo 22
+consumer consumiendo 22
+producer prod_2 produciendo
+consumer consumiendo 24
+consumer consumiendo 25
+producer prod_2 almacenado 36
+consumer consumiendo 27
+consumer consumiendo 28
+consumer consumiendo 29
+consumer consumiendo 29
+consumer consumiendo 30
+consumer consumiendo 31
+consumer consumiendo 31
+consumer consumiendo 32
+consumer consumiendo 34
+consumer consumiendo 34
+consumer consumiendo 36
+consumer consumiendo 36
+elementos consumidos: [0, 0, 3, 3, 4, 4, 5, 7, 8, 8, 9, 9, 9, 10, 11, 11, 11, 11, 12, 12, 14, 14, 14, 15, 16, 17, 17, 18, 18, 18, 19, 21, 21, 21, 22, 22, 24, 25, 27, 28, 29, 29, 30, 31, 31, 32, 34, 34, 36, 36]
+]0;clarpe02@simba: ~[01;32mclarpe02@simba[00m:[01;34m~[00m$ ^C
+]0;clarpe02@simba: ~[01;32mclarpe02@simba[00m:[01;34m~[00m$ ^C
+]0;clarpe02@simba: ~[01;32mclarpe02@simba[00m:[01;34m~[00m$ ^C
+]0;clarpe02@simba: ~[01;32mclarpe02@simba[00m:[01;34m~[00m$ exit
+
+Script terminado en 2022-03-03 18:38:08+01:00 [CÓDIGO_SALIDA_ORDEN="130"]
