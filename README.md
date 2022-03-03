@@ -1,1 +1,1 @@
-# CritSectionSem
+# PRACTICA-1
